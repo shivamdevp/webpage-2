@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <title>Welcome To Cultural Performers</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="container-md">
+                <button onclick="menuOpen()"><i class="bi bi-list"></i></button>
+                <nav class="row">
+                    <ul class="col-12-row d-flex justify-sb" id="menu">
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">VISION</a></li>
+                        <li><a href="">EXPRESSION</a></li>
+                        <li><a href="">SEASONS</a></li>
+                        <li><a href="">TASTE</a></li>
+                        <li><a href="">CULTURE</a>
+                            <div class="dropdown">
+                                <ul class="d-flex flex-column align-center">
+                                    <li><a href="">CULTURAL PERFORMERS</a></li>
+                                    <li><a href="">UPCOMING EVENTS</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="">CELEBRATIONS</a>
+                            <div class="dropdown-2">
+                                <ul class="d-flex flex-column align-center">
+                                    <li><a href="" class="text-upper">diwali itinerary 2026</a></li>
+                                    <li><a href="" class="text-upper">holi calendar 2026</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li><a href="">STORIES</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <figure class="container-logo">
+            <div class="row text-center">
+                <img src="img/logo.jpg" alt="" width="100%">
+            </div>
+        </figure>
+        <main>
+            <section class="container-hero">
+                <div class="row-1">
+                    <h1>TAGA RAM BHEEL </h1>
+                </div>
+                <div class="row-2">
+                    <img src="img/1.jpg" alt="" width="100%">
+                </div>
+            </section>
+            <section class="container-text">
+                <div class="row-1 text-center">
+                    <p>Taga Ram Bheel is a renowned Padma Shri awardee (2026) and maestro of the algoza (twin-flute)
+                        folk instrument<br>
+                        from Jaisalmer, Rajasthan. He founded the Algoza Folk Music Institute in Moolsagar, Jaisalmer,
+                        to support<br>
+                        artists from backward communities and has performed in more than 35 countries, promoting
+                        traditional<br>
+                        Rajasthani folk music. </p>
+                </div>
+                <div class="row-2 text-center">
+                    <p>Born into the Bhil Rajput community, he grew up in a family with limited financial resources. His
+                        father sent him<br>
+                        to the forests (open scrublands and grasslands known as Oran in the Thar Desert) to graze sheep
+                        and goats. It was<br>
+                        during these solitary hours in the Thar Desert that he taught himself to play by mimicking the
+                        sounds of nature.<br>
+                        Because his father was also an algoza player, young Taga Ram would often sneak his father’s
+                        instrument into the<br>
+                        forest to practice in secret, fearing he might be scolded for not focusing on his work. </p>
+                </div>
+                <div class="row-3 text-center">
+                    <p>He bought his first algoza at age 11 for just a few rupees and spent years mastering circular
+                        breathing –<br>
+                        a difficult technique that allows him to play continuously without pausing for breath. He was
+                        inspired by the<br>
+                        musical traditions of the Managiyar community, who performed in Rajput court, and later found in
+                        a mentor in<br>
+                        Ustad Akbar Khan.
+                    </p>
+                </div>
+                <div class="row-4 text-center">
+                    <p>After nearly a decade of secret practice, he gave his first public performance at the Jaisalmer
+                        Desert Festival in 1981<br>
+                        at age 18, which launched his professional career. We are honoured to have him perform with his
+                        team in Mukunda<br>
+                        in Holi, a performance that truly elevates the standards of traditional Courtyard concerts of
+                        India.</p>
+                </div>
+            </section>
+            <figure class="container-figure">
+                <div class="row d-flex">
+                    <div class="col-4">
+                        <img src="img/2.jpg" alt="" width="100%" height="95%">
+                    </div>
+                    <div class="col-8">
+                        <img src="img/3.jpg" alt="" width="100%" height="95%">
+                    </div>
+                </div>
+            </figure>
+        </main>
+        
+        <footer class="container-footer">
+            <div class="row d-flex justify-sb align-center">
+                <div class="col-4">
+                    Lional Falodu
+                </div>
+                <div class="col-4">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-chat-right-fill"></i>
+                </div>
+                <div class="col-4">
+                    <span>made with sqodal</span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+<script>
+    function menuOpen() {
+
+        var menu = document.getElementById("menu");
+
+        if (menu.style.display == "block") {
+            menu.style.display = "none";
+        }
+        else {
+            menu.style.display = "block";
+        }
+
+    }
+</script>
+
+</html>
